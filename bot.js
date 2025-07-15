@@ -89,7 +89,7 @@ async function startBot() {
       }
 
     if (text && text.toLowerCase() === 'yt') {
-      await sock.sendMessage(msg.key.remoteJid, { text: 'https://youtu.be/5w8txkoa0FQ' });
+      await sock.sendMessage(msg.key.remoteJid, { text: 'https://youtube.com/@tech24indi' });
       }
 
     if (text && text.toLowerCase() === 'wp') {
