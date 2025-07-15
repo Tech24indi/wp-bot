@@ -51,11 +51,6 @@ apt upgrade -y
 ```bash
 git clone https://github.com/Tech24indi/wp-bot
 cd wp-bot
-```
-
-### 3. Install Dependencies
-
-```bash
 npm install @whiskeysockets/baileys qrcode-terminal pino
 ```
 
