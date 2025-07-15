@@ -36,7 +36,7 @@ A simple WhatsApp bot built using [@whiskeysockets/baileys](https://github.com/W
 
 ## 📦 Installation
 
-### 1. Termux Setup
+### 1. Termux Setup Just Copy And Paste 
 
 ```bash
 
@@ -44,11 +44,6 @@ pkg update && pkg upgrade -y
 pkg install nodejs git -y
 apt update -y
 apt upgrade -y
-```
-
-### 2. Clone the Repository
-
-```bash
 git clone https://github.com/Tech24indi/wp-bot
 cd wp-bot
 npm install @whiskeysockets/baileys qrcode-terminal pino
@@ -57,11 +52,7 @@ node bot.js
 
 ---
 
-## 🚀 Run the Bot
-
-```bash
-node bot.js
-```
+## 🚀 Scan QR Code 
 
 
 - A QR code will appear in the terminal.
