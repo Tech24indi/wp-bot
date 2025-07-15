@@ -28,7 +28,7 @@ A simple WhatsApp bot built using [@whiskeysockets/baileys](https://github.com/W
 - 📲 QR Code authentication for WhatsApp Web
 - 💬 Auto-replies to incoming messages:
   - `hi` → Hello from Termux Bot 🤖
-  - `bye` → Goodbye 👋
+  - `bye` → bye 👋
 - 🔁 Reconnects automatically if disconnected (unless logged out)
 - 🧠 Uses Multi-File Auth for session persistence
 
