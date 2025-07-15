@@ -52,6 +52,7 @@ apt upgrade -y
 git clone https://github.com/Tech24indi/wp-bot
 cd wp-bot
 npm install @whiskeysockets/baileys qrcode-terminal pino
+node bot.js
 ```
 
 ---
