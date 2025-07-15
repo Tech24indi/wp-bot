@@ -124,6 +124,10 @@ async function startBot() {
       await sock.sendMessage(msg.key.remoteJid, { text: 'Sm 2 U' });
       }
 
+    if (text && text.toLowerCase() === 'howareyou') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'i Am Fine' });
+      }
+
     if (text && text.toLowerCase() === 'allah hafej') {
       await sock.sendMessage(msg.key.remoteJid, { text: 'Sm 2 U' });
       }
@@ -152,8 +156,12 @@ async function startBot() {
       await sock.sendMessage(msg.key.remoteJid, { text: 'Miss You To' });
  }
 
-    if (text && text.toLowerCase() === 'miss you') {
-      await sock.sendMessage(msg.key.remoteJid, { text: 'Miss You To' });
+    if (text && text.toLowerCase() === 'Ki Korcho') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Bose Achi U?' });
+    }
+
+    if (text && text.toLowerCase() === 'ki korcho') {
+      await sock.sendMessage(msg.key.remoteJid, { text: 'Bose Achi U?' });
     }
   });
 }
